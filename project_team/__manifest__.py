@@ -2,17 +2,21 @@
 # See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Project Team v10',
+    'name': 'Project - Set Team and members',
     'author': 'Serpent Consulting Services Pvt. Ltd.',
-    'summary': 'Adds Project Team Members.',
+    'maintainer': 'Serpent Consulting Services Pvt. Ltd.',
+    'summary': 'Project Team Management',
     'category': 'Project Management',
     'website': 'http://www.serpentcs.com',
     'version': '10.0.1.0.0',
+    'license': 'AGPL-3',
     'sequence': 1,
-    'depends': ['project', 'crm'],
+    'depends': ['project', 'crm', 'web'],
     'data': [
-        'views/project_team_view.xml'
+        'views/template.xml',
+        'views/project_team_view.xml',
     ],
+    'images': ['static/description/ProjectTeam.png'],
     'installable': True,
     'auto_install': False
 }

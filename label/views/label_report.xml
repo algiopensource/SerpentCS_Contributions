@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
-    <data>
+<odoo>
 
-        <!-- QWEB Report use  paperformat -->
+        <!-- QWEB Report use paperformat -->
         <report id="dynamic_label"
                 string="Label"
                 model="label.config"
@@ -10,5 +9,4 @@
                 report_type="qweb-pdf"
                 paperformat="label.paperformat_euro"/>
 
-    </data>
-</openerp>
+</odoo>

@@ -8,8 +8,16 @@
     "category": "Tools",
     "license": "AGPL-3",
     "website": "http://www.serpentcs.com",
-    "summary": "Generate customised labels of any document",
+    "summary": """Generate customised labels of any document
+    ========================
+    Label Print
+    Label
+    Product Label
+    Barcode Print
+    Barcode Label
+    """,
     "description": """
+    Generate customised labels of any document
     The video : https://www.youtube.com/watch?v=Fps5FWfcLwo
     """,
     'depends': ['report'],
@@ -25,7 +33,10 @@
         'views/label_report.xml',
         'report/dynamic_label.xml'
     ],
+    'uninstall_hook': 'uninstall_hook',
     'images': ['static/description/Label.png'],
     'installable': True,
     'auto_install': False,
+    'price': 25,
+    'currency': 'EUR',
 }
